@@ -8,7 +8,7 @@ magicians = ["alice", "david", "carolina"]
 for magician in magicians:
     print(f"{magician.title()}, that was a great trick!")
 
-# Als je nog een functie toevoegd aan de for loop, word de lijst opnieuw uitgevoert.
+# Als je nog een functie toevoegde aan de for loop, wordt de lijst opnieuw uitgevoerd.
 # Als je 2 print functies hebt, dan gaat het eerste item eerst door de TWEE! functies heen.
 magicians = ["alice", "david", "carolina"]
 for magician in magicians:
@@ -28,8 +28,8 @@ print(numbers)
 even_numbers = list(range(2, 11, 2))
 print(even_numbers)
 
-# Hier begin je met een lege lijst om vervolgens de getallen 1 t/m 10 berekent tot het kwadraat 2. (1, 4, 9, 16, etc.)
-# Je voegt daarna die getallen toe aan de varaible square en voegt ze toe aan de lijst door de append() functie, om vervolgens de lijst te vullen & te printen.
+# Hier begin je met een lege lijst om vervolgens de getallen 1 tot en met 10 berekent tot het kwadraat 2. (1, 4, 9, 16, etc.)
+# Je voegt daarna die getallen toe aan de variable square en voegt ze toe aan de lijst door de append() functie, om vervolgens de lijst te vullen & te printen.
 squares = []
 for value in range(1, 11):
     square = value ** 2
@@ -61,11 +61,11 @@ players = ["charles", "martina", "michael", "eli", "florence"]
 for player in players[0:3]:
     print(player.title())
 
-# Het kopieren van een list en toevoegen aan een nieuwe variable.
+# Het koperen van een list en toevoegen aan een nieuwe variable.
 my_foods = ["pizza", "falafel", "carrot cake"]
 friends_food = my_foods[:]
 
-# append() functie om iets verschillends toe tevoegen aand en de list.
+# append() functie om iets verschillends toe toevoegen and en de list.
 my_foods.append("hamburger")
 friends_food.append("apple")
 
@@ -76,14 +76,14 @@ print("My friends favorite foods are:")
 print(friends_food)
 
 
-# Een tuple word gebrukt als een lijst, maar we gebruiken hier haakjes.
+# Een tuple word gebruikt als een lijst, maar we gebruiken hier haakjes.
 # Een item in een tuple is een vast waarde, en kan je dus niet veranderen.
 # Wordt veel gebruikt voor bijvoorbeeld dimensies van een vierkant op een website.
 dimensions = (200, 50)
 print(dimensions[0])
 print(dimensions[1])
 
-# Door een tuple heen loopen en waarde wijzigen door de complete variable te wijzigen.
+# Door een tuple heen lopen en waarde wijzigen door de complete variable te wijzigen.
 # Je kan dus alleen de waarde veranderen als je de complete variable wijzigt.
 dimensions = (200, 50)
 for dimension in dimensions:
