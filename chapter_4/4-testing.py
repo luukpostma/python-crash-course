@@ -47,3 +47,50 @@ print(squares)
 # Nog kortere variant door list comprehension.
 squares = [value ** 2 for value in range(1, 11)]
 print(squares)
+
+# Slicen van een list.
+players = ["charles", "martina", "michael", "eli"]
+print(players[0:3])
+
+# Slicen van een list
+players = ["charles", "martina", "michael", "eli"]
+print(players[:2])
+
+# Gedeelte van een list printen met een for loop.
+players = ["charles", "martina", "michael", "eli", "florence"]
+for player in players[0:3]:
+    print(player.title())
+
+# Het kopieren van een list en toevoegen aan een nieuwe variable.
+my_foods = ["pizza", "falafel", "carrot cake"]
+friends_food = my_foods[:]
+
+# append() functie om iets verschillends toe tevoegen aand en de list.
+my_foods.append("hamburger")
+friends_food.append("apple")
+
+print("My favorite foods are:")
+print(my_foods)
+
+print("My friends favorite foods are:")
+print(friends_food)
+
+
+# Een tuple word gebrukt als een lijst, maar we gebruiken hier haakjes.
+# Een item in een tuple is een vast waarde, en kan je dus niet veranderen.
+# Wordt veel gebruikt voor bijvoorbeeld dimensies van een vierkant op een website.
+dimensions = (200, 50)
+print(dimensions[0])
+print(dimensions[1])
+
+# Door een tuple heen loopen en waarde wijzigen door de complete variable te wijzigen.
+# Je kan dus alleen de waarde veranderen als je de complete variable wijzigt.
+dimensions = (200, 50)
+for dimension in dimensions:
+    print(dimension)
+
+dimensions = (400, 100)
+print("\nModified dimensions:")
+for dimension in dimensions:
+    print(dimension)
+    
